@@ -1,8 +1,8 @@
 import styles from 'src/styles/scss/layout/header.module.scss'
-import { Image, border } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 
 
-export default function() {
+export default function Header () {
   return(
     <>
       <div className={styles.container1}>
