@@ -1,16 +1,18 @@
 
+
 .container {
   display: flex;
   justify-content: center;
-  background-color: #00759e;
-  padding-bottom: 50px;
 
   .content {
+    min-height: 400px;
     width: 950px;
+    margin:30px 0px;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     h4, p {
-      color: white;
+      color: #00759e;
     }
   }
 }
